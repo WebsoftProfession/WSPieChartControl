@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WSPieChartView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<WSPieChartViewDelegate>
+@property (weak, nonatomic) IBOutlet WSPieChartView *chartView;
 
 
 @end

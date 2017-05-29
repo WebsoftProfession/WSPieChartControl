@@ -15,6 +15,12 @@
 		6069DAE21E8BC52500480170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6069DAE01E8BC52500480170 /* LaunchScreen.storyboard */; };
 		6069DAED1E8BC52500480170 /* WSPieChartControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069DAEC1E8BC52500480170 /* WSPieChartControlTests.m */; };
 		6069DAF81E8BC52500480170 /* WSPieChartControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069DAF71E8BC52500480170 /* WSPieChartControlUITests.m */; };
+		6069DB071E8BC54800480170 /* WSPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069DB061E8BC54800480170 /* WSPieChartView.m */; };
+		608200EC1E92713D00BFDD18 /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 608200EB1E92713D00BFDD18 /* car.jpg */; };
+		608200EE1E9271A400BFDD18 /* truck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 608200ED1E9271A400BFDD18 /* truck.jpg */; };
+		608200F01E9272A700BFDD18 /* bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 608200EF1E9272A700BFDD18 /* bike.jpg */; };
+		608200F21E9272FB00BFDD18 /* train.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 608200F11E9272FB00BFDD18 /* train.jpg */; };
+		608200F41E92733000BFDD18 /* plane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 608200F31E92733000BFDD18 /* plane.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		6069DAF31E8BC52500480170 /* WSPieChartControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSPieChartControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6069DAF71E8BC52500480170 /* WSPieChartControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPieChartControlUITests.m; sourceTree = "<group>"; };
 		6069DAF91E8BC52500480170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6069DB051E8BC54800480170 /* WSPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPieChartView.h; sourceTree = "<group>"; };
+		6069DB061E8BC54800480170 /* WSPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPieChartView.m; sourceTree = "<group>"; };
+		608200EB1E92713D00BFDD18 /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
+		608200ED1E9271A400BFDD18 /* truck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = truck.jpg; sourceTree = "<group>"; };
+		608200EF1E9272A700BFDD18 /* bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bike.jpg; sourceTree = "<group>"; };
+		608200F11E9272FB00BFDD18 /* train.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = train.jpg; sourceTree = "<group>"; };
+		608200F31E92733000BFDD18 /* plane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plane.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,11 @@
 		6069DAD11E8BC52400480170 /* WSPieChartControl */ = {
 			isa = PBXGroup;
 			children = (
+				608200F31E92733000BFDD18 /* plane.jpg */,
+				608200F11E9272FB00BFDD18 /* train.jpg */,
+				608200EF1E9272A700BFDD18 /* bike.jpg */,
+				608200ED1E9271A400BFDD18 /* truck.jpg */,
+				608200EB1E92713D00BFDD18 /* car.jpg */,
 				6069DAD51E8BC52400480170 /* AppDelegate.h */,
 				6069DAD61E8BC52400480170 /* AppDelegate.m */,
 				6069DAD81E8BC52400480170 /* ViewController.h */,
@@ -110,6 +128,8 @@
 				6069DAE01E8BC52500480170 /* LaunchScreen.storyboard */,
 				6069DAE31E8BC52500480170 /* Info.plist */,
 				6069DAD21E8BC52400480170 /* Supporting Files */,
+				6069DB051E8BC54800480170 /* WSPieChartView.h */,
+				6069DB061E8BC54800480170 /* WSPieChartView.m */,
 			);
 			path = WSPieChartControl;
 			sourceTree = "<group>";
@@ -246,8 +266,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608200F21E9272FB00BFDD18 /* train.jpg in Resources */,
 				6069DAE21E8BC52500480170 /* LaunchScreen.storyboard in Resources */,
 				6069DADF1E8BC52500480170 /* Assets.xcassets in Resources */,
+				608200EC1E92713D00BFDD18 /* car.jpg in Resources */,
+				608200F01E9272A700BFDD18 /* bike.jpg in Resources */,
+				608200EE1E9271A400BFDD18 /* truck.jpg in Resources */,
+				608200F41E92733000BFDD18 /* plane.jpg in Resources */,
 				6069DADD1E8BC52400480170 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6069DB071E8BC54800480170 /* WSPieChartView.m in Sources */,
 				6069DADA1E8BC52400480170 /* ViewController.m in Sources */,
 				6069DAD71E8BC52400480170 /* AppDelegate.m in Sources */,
 				6069DAD41E8BC52400480170 /* main.m in Sources */,
@@ -424,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WSPieChartControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TD.WSPieChartControl;
@@ -435,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WSPieChartControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TD.WSPieChartControl;
@@ -507,6 +535,7 @@
 				6069DAFE1E8BC52500480170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6069DAFF1E8BC52500480170 /* Build configuration list for PBXNativeTarget "WSPieChartControlTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				6069DB011E8BC52500480170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6069DB021E8BC52500480170 /* Build configuration list for PBXNativeTarget "WSPieChartControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				6069DB041E8BC52500480170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
