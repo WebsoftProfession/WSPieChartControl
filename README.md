@@ -1,3 +1,10 @@
+# WSPieChartSwift
+
+Swift Version is Available now with more customisation & enhancement.
+
+https://github.com/WebsoftProfession/WSPieChartSwift
+
+
 # WSPieChartControl
 Pie chart for show data.
 Simply set the custom class to your button and use.
